@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: #ff9f43; /* oranye muda untuk pinggir */
+    line-height: 1.5;
+  }
+  
+  /* Header */
+  .judul {
+    background-color: #000000; /* hitam */
+    color: #ff9f43; /* oranye */
+    padding: 20px;
+    font-size: 22px;
+  }
+  
+  /* Navbar */
+  .menu {
+    list-style: none;
+    background: #262626; /* abu kehitaman */
+    padding: 12px;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .menu a:hover {
+    color: #ff9f43;
+  }
+  
+  /* Konten utama */
+  .konten-utama {
+    background: #ffffff; /* putih */
+    padding: 25px;
+    margin: 20px;
+    border-radius: 8px;
+  }
+  
+  .konten-utama h2 {
+    color: #000000;
+  }
+  
+  .artikel {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 15px;
+  }
+  
+  .artikel img {
+    width: 100%;
+    border: 2px solid #000000;
+  }
+  
+  /* Footer */
+  footer {
+    background: #000000;
+    color: #ff9f43;
+    text-align: center;
+    padding: 12px;
+    margin-top: 20px;
+  }
+  
