@@ -1,0 +1,19 @@
+body
+{
+    background:bisque;
+}
+.artikel {
+    display:grid;
+    grid-template-columns: 140px 1fr;
+    gap: 10px;
+    position-area: left;
+  }
+  
+.artikel img {
+    width: 150%;
+    border: 2px solid orange;
+  }
+
+p {
+    text-align: left;
+}
