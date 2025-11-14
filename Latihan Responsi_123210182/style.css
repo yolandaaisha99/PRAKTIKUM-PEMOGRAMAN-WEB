@@ -1,0 +1,46 @@
+:root{
+    --pastel-green: #c9f3d0;
+    --pastel-blue: #d7efff;
+    --pastel-white: #ffffff;
+    --accent: #9ad9a5;
+}
+
+body{
+    background: linear-gradient(180deg, var(--pastel-blue) 0%, #f8fff8 100%);
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(14,40,28,0.06);
+}
+
+.btn-primary {
+    background-color: var(--accent);
+    border-color: var(--accent);
+}
+.btn-primary:hover {
+    transform: translateY(-2px);
+    transition: transform .12s ease;
+}
+
+.table thead {
+    background: linear-gradient(90deg, rgba(255,255,255,0.6), rgba(250,255,250,0.6));
+}
+
+.logo {
+    font-weight: 700;
+    color: #2f7a45;
+    font-size: 1.25rem;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(154,217,165,0.28);
+}
+
+.footer-note {
+    font-size: 0.85rem;
+    color: #6b6b6b;
+}
