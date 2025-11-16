@@ -74,12 +74,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <div class="container py-5">
   <div class="row page-box">
 
-    <!-- GAMBAR FULL KIRI -->
     <div class="col-md-6 p-0">
         <div class="left-img"></div>
     </div>
 
-    <!-- FORM KANAN -->
     <div class="col-md-6 form-box">
         <h3 class="fw-bold">Login</h3>
         <p class="text-muted">Masukkan username dan password</p>
@@ -117,4 +115,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </div>
 
 </body>
+
 </html>
