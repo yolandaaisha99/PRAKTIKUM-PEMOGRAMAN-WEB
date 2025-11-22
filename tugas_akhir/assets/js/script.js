@@ -1,6 +1,4 @@
-// Client-side validation and interactions
 document.addEventListener('DOMContentLoaded', function() {
-    // Form validation for login/register
     const forms = document.querySelectorAll('form');
     forms.forEach(form => {
         form.addEventListener('submit', function(e) {
@@ -16,7 +14,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Search functionality on index.php
     const searchInput = document.getElementById('search');
     if (searchInput) {
         searchInput.addEventListener('input', function() {
@@ -29,7 +26,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Filter by category
     const filterSelect = document.getElementById('category-filter');
     if (filterSelect) {
         filterSelect.addEventListener('change', function() {

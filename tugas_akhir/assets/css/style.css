@@ -103,3 +103,51 @@ input, textarea, select {
         flex-direction: column;
     }
 }
+
+
+.recipe-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    transition: transform .2s ease;
+}
+
+.recipe-card:hover {
+    transform: translateY(-3px);
+}
+
+.button-group {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.button-group a {
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    transition: 0.25s;
+}
+
+.btn-edit {
+    background: #4e73df;
+    color: white;
+}
+
+.btn-edit:hover {
+    background: #2e59d9;
+}
+
+.btn-delete {
+    background: #e74a3b;
+    color: white;
+}
+
+.btn-delete:hover {
+    background: #c0392b;
+}
